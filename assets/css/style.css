@@ -1,0 +1,796 @@
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+  color: inherit;
+  transition: 0.3s ease-in-out all;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", sans-serif;
+}
+
+body,
+p {
+  font-family: "Inter", sans-serif;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.outline-secondary {
+  padding: 16px 32px;
+  border-radius: 80px;
+  border: 2px solid #dc0b10;
+  color: #dc0b10;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.outline-secondary:hover {
+  background: #25559f;
+  border: 2px solid #25559f;
+}
+
+.primary-button {
+  padding: 16px 32px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 80px;
+  background: #25559f;
+  border: 2px solid #25559f;
+}
+
+.primary-button:hover {
+  border: 2px solid #dc0b10;
+  background-color: transparent;
+  color: #dc0b10;
+}
+
+.primary-outline {
+  padding: 20px 40px;
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 80px;
+  border: 2px solid #fff;
+  background: #dc0b10;
+  box-shadow: 0px 4px 5.9px 0px rgba(0, 0, 0, 0.5) inset;
+}
+
+.primary-outline:hover {
+  background: #dc0b10;
+  color: #fff;
+}
+
+.primary-gradient {
+  padding: 20px 40px;
+  border-radius: 80px;
+  font-size: 16px;
+  font-weight: 700;
+  background: var(--gradient,
+      linear-gradient(180deg, #022c6d 0%, #6ba5ff 126.43%));
+  box-shadow: 0px 4px 5.9px 0px rgba(0, 0, 0, 0.5) inset;
+}
+
+.secondary {
+  padding: 16px 32px;
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 80px;
+  background: #dc0b10;
+}
+
+.primary-color {
+  color: #25559f;
+}
+
+.secondary-color {
+  color: #dc0b10;
+}
+
+.primary-bg {
+  background-color: #25559f;
+}
+
+.secondary-bg {
+  background-color: #dc0b10;
+}
+
+.text-color {
+  color: #232323;
+}
+
+.black-color {
+  color: #232323;
+}
+
+.white-color {
+  color: #fff;
+}
+
+.black-bg {
+  background-color: #232323;
+}
+
+.white-bg {
+  background-color: #fff;
+}
+
+.transparent-bg {
+  background-color: transparent;
+}
+
+.transparent-color {
+  color: transparent;
+}
+
+.pt-120 {
+  padding-top: 120px;
+}
+
+.pb-120 {
+  padding-bottom: 120px;
+}
+
+.pb-60 {
+  padding-bottom: 60px;
+}
+
+.ptb-120 {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.ptb-55 {
+  padding: 55px 35px 55px 35px;
+}
+
+.pb-40 {
+  padding-bottom: 40px;
+}
+
+.top-bar {
+  background: #dc0b10;
+  padding: 15px 0;
+  text-align: center;
+}
+
+.top-bar span {
+  color: #fff;
+  font-size: 15px;
+  font-family: "Inter", sans-serif;
+}
+
+.main-header img {
+  width: 40%;
+}
+
+.navbar-expand-lg .navbar-nav {
+  gap: 80px;
+}
+
+.main-header a.navbar-brand {
+  margin: 0;
+  width: 35%;
+}
+
+.navbar-expand-lg .navbar-collapse {
+  gap: 20px;
+}
+
+.main-header .nav-link {
+  font-size: 18px;
+  font-weight: 400;
+  color: #232323;
+}
+
+.navbar-nav .nav-item .nav-link {
+  color: #232323;
+  font-family: 'Inter', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  border-bottom: 2px solid transparent;
+  padding: 0;
+  line-height: 1.8em;
+  transition: 0.3s ease-in-out all;
+}
+
+.navbar-nav .nav-item:hover .nav-link {
+  color: #25559F;
+  border-bottom: 2px solid #DC0B10;
+  transition: 0.3s ease-in-out all;
+}
+
+.main.hero-banner-bg {
+  background: url("../images/home-bg.png");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 120px 45px;
+  margin: auto;
+  text-align: center;
+  position: relative;
+}
+
+.main.hero-banner-bg h1 {
+  font-size: 64px;
+  margin: auto;
+  width: 620px;
+  font-weight: 300;
+  line-height: 83.264px;
+  color: #fff;
+  padding-bottom: 50px;
+}
+
+.main.hero-banner-bg .remocan {
+  display: flex;
+  justify-content: center;
+  gap: 150px;
+}
+
+.main.hero-banner-bg .remocan img {
+  width: 150px;
+}
+
+.main.hero-banner-bg .remocan h2 {
+  color: #fff;
+  font-size: 64px;
+  font-weight: 700;
+  padding-top: 50px;
+}
+
+.remocan .democrat {
+  cursor: pointer;
+  transform: scale(1);
+  transition: 0.3s ease-in-out all;
+  z-index: 1;
+}
+
+.remocan .democrat:hover {
+  transform: scale(1.1);
+  transition: 0.3s ease-in-out all;
+}
+
+.main.hero-banner-bg .remocan .democrat h3 {
+  color: #fff;
+  padding-top: 20px;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.biden--img {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.biden--img:before {
+  content: "";
+  width: 444px;
+  height: 657px;
+  background: url("../images/man1.png");
+  background-size: contain;
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  display: block;
+}
+
+.trump--img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.trump--img:before {
+  content: "";
+  width: 444px;
+  height: 562px;
+  background: url("../images/man2.png");
+  background-size: contain;
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  display: block;
+}
+
+.hero-banner-bg h4 {
+  font-size: 36px;
+  line-height: 66.224px;
+  margin-top: 15px;
+}
+
+
+.main.hero-banner-bg .cta--btn {
+  margin-top: 30px;
+}
+
+.cta--block {
+  margin-top: 50px;
+}
+
+.candidates--2 {
+  padding-bottom: 55px;
+}
+
+.pe--inner {
+  border-radius: 10px;
+  background: #ffffff;
+  background-blend-mode: normal, multiply;
+  box-shadow: 1px 2px 4px 0px rgba(0, 0, 0, 0.25);
+  /* min-height: 300px; */
+  margin: auto;
+  position: relative;
+}
+
+.pe--inner:before {
+  content: "";
+  background: url("../images/american--flag.png");
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 207px;
+  height: 215px;
+  display: block;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.candidates--2--block {
+  display: grid;
+  grid-template-columns: 14% 14% 14% 14% 14% 14% 14%;
+  /* gap: 12px; */
+  gap: 5px;
+  margin-top: -8vh;
+  z-index: 9;
+  position: relative;
+}
+
+.candidates--2--block img {
+  width: 100%;
+}
+
+.candidates--2--block .img--block {
+  cursor: pointer;
+  transition: 0.3s ease-in-out all;
+}
+
+.candidates--2--block .img--block:hover {
+  transform: translateY(-10px);
+  transition: 0.3s ease-in-out all;
+}
+
+.candidates--block {
+  background: url("../images/candidate-bg.png");
+  background-position: top right;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.about--block {
+  display: grid;
+  grid-template-columns: 45% 55%;
+}
+
+.about--block .img--block {
+  background: url("../images/white--house.png");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* min-height: 646px; */
+}
+
+.pe--inner {
+  display: grid;
+  grid-template-columns: 33% 67%;
+  padding: 0;
+  overflow: hidden;
+}
+
+.pe--inner .img--block {
+  background: url("../images/mount-rushmore.png");
+  background-position: top left;
+  background-size: 400px 490px;
+  background-repeat: no-repeat;
+  /* min-height: 511px; */
+}
+
+/* DEMOCRATS SECTION START*/
+.democrat--block {
+  padding-bottom: 6%;
+}
+
+.democrat--block .democrat {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.democrat--block .image-boxes.democrat-boxes .democrat-box {
+  text-align: center;
+  padding: 0 15px;
+}
+
+.image-boxes.democrat-boxes .democrat-box .democrat-box-img {
+  /* width: 200px; */
+  padding-bottom: 15px;
+  cursor: pointer;
+  transform: scale(1);
+  transition: 0.3s ease-in-out all;
+}
+
+.image-boxes.democrat-boxes .democrat-box .democrat-box-img:hover {
+  transform: scale(1.1);
+  transition: 0.3s ease-in-out all;
+}
+
+.image-boxes.democrat-boxes .democrat-box img {
+  width: 100%;
+}
+
+.democrat--block .image-boxes.democrat-boxes .democrat-box h4 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 34px;
+}
+
+.democrat--block .democrat-boxes {
+  display: grid;
+  grid-template-columns: 16.66% 16.66% 16.66% 16.66% 16.66% 16.66%;
+  padding-top: 30px;
+}
+
+/* DEMOCRATS SECTION END*/
+
+/* REPUBLICANS SECTION START*/
+.republic--block {
+  padding-bottom: 6%;
+}
+
+.republic--block .republic {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.republic--block .image-boxes.republic-boxes .republic-box {
+  text-align: center;
+  padding: 0 15px;
+}
+
+.republic--block .image-boxes.republic-boxes .republic-box .republic-box-img {
+  /* width: 200px; */
+  padding-bottom: 15px;
+  cursor: pointer;
+  transform: scale(1);
+  transition: 0.3s ease-in-out all;
+}
+
+.image-boxes.republic-boxes .republic-box .republic-box-img:hover {
+  transform: scale(1.1);
+  transition: 0.3s ease-in-out all;
+}
+
+.image-boxes.republic-boxes .republic-box .republic-box-img img {
+  width: 100%;
+}
+
+.republic--block .image-boxes.republic-boxes .republic-box h4 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 34px;
+}
+
+.republic--block .republic-boxes {
+  display: grid;
+  grid-template-columns: 17% 17% 17% 17% 17% 15%;
+  padding-top: 30px;
+}
+
+/* REPUBLICANS SECTION END*/
+
+/* THIRD PARTY SECTION START*/
+.independent--block .independent {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.independent--block .image-boxes.independent-boxes .independent-box {
+  text-align: center;
+  padding: 0 15px;
+}
+
+.independent--block .image-boxes.independent-boxes .independent-box .independent-box-img {
+  /* width: 200px; */
+  padding-bottom: 15px;
+  cursor: pointer;
+  transform: scale(1);
+  transition: 0.3s ease-in-out all;
+}
+
+.independent--block .image-boxes.independent-boxes .independent-box .independent-box-img:hover {
+  transform: scale(1.1);
+  transition: 0.3s ease-in-out all;
+}
+
+.image-boxes.independent-boxes .independent-box img {
+  width: 100%;
+}
+
+.independent--block .image-boxes.independent-boxes .independent-box h4 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 34px;
+}
+
+.independent--block .independent-boxes {
+  display: grid;
+  grid-template-columns: 17% 17% 17% 17% 17% 15%;
+  padding-top: 30px;
+}
+
+/* THIRD PARTY SECTION END*/
+
+.about--block .about--block-heading {
+  font-size: 36px;
+  line-height: 46.836px;
+  font-weight: 300;
+}
+
+.about--block .about-p {
+  font-size: 16px;
+  line-height: 30.4px;
+  width: 497px;
+}
+
+.presidential--election--block .pb-40 {
+  font-size: 48px;
+  line-height: 62.448px;
+}
+
+.presidential--election--block .right--block.content--block {
+  padding: 20px 50px;
+  text-align: left;
+}
+
+.presidential--election .content--block .presidential--election-heading {
+  font-size: 40px;
+  line-height: 52.04px;
+  text-align: left;
+  width: 620px;
+  font-weight: 300;
+}
+
+.presidential--election--block .right--block.content--block .presidential--election-para {
+  font-size: 16px;
+  line-height: 30.4px;
+  text-align: left;
+  width: 527px;
+  color: #232323;
+}
+
+.presidential--election-button {
+  color: #fff;
+}
+
+footer {
+  padding: 100px;
+}
+
+footer .footer-inner .logo--block {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+footer .footer-inner {
+  display: grid;
+  grid-template-columns: auto auto 35%;
+  gap: 30px;
+  justify-content: space-between;
+}
+
+footer .footer-inner .logo--block img {
+  width: 200px;
+}
+
+footer .footer-inner .logo--block .footer-logo-bottom i {
+  color: #fff;
+  background: #DC0B10;
+  padding: 8px;
+  border-radius: 25px;
+  margin-right: 15px;
+}
+
+footer .footer-inner .logo--block .footer-logo-bottom {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+footer .footer-inner .logo--block .footer-logo-bottom .footer-phone span {
+  color: #fff;
+}
+
+footer .footer-inner .logo--block .footer-logo-bottom .footer-email {
+  color: #fff;
+}
+
+footer .footer-inner .logo--block .social-icons {
+  color: #fff;
+  display: flex;
+  gap: 25px;
+  padding-left: 5px;
+  font-size: 24px;
+}
+
+footer .footer-inner .footer-content--block.white-color {
+  font-size: 24px;
+}
+
+footer .footer-inner .content--block p {
+  font-size: 16px;
+  line-height: 30.4px;
+  padding-top: 10px;
+}
+
+footer .footer-inner .content--block {
+  padding-top: 30px;
+}
+
+footer .footer-inner .navigation--block {
+  padding-top: 30px;
+  padding-left: 20px;
+}
+
+footer .footer-inner .newsletter--block {
+  padding-top: 30px;
+}
+
+footer .footer-inner .navigation--block .footer-menu li {
+  padding: 15px 0;
+  color: #fff;
+}
+
+footer .footer-inner .newsletter--block .search-form input[type="text"] {
+  padding: 12px;
+  border-radius: 25px;
+  border: none;
+  width: 70%;
+}
+
+footer .footer-inner .newsletter--block .search-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-top: 10px;
+}
+
+footer .footer-inner .newsletter--block .search-form .form-button {
+  width: 40%;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+
+
+/* POPPUP CSS */
+
+.modal {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  padding-top: 50px;
+  /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0);
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  border: none;
+  width: 70%;
+  display: flex !important;
+  justify-content: space-between;
+  flex-direction: row !important;
+  box-shadow: 1px 2px 4px 0px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+
+}
+
+/* The Close Button */
+.close {
+  color: #fff;
+  float: right;
+  font-size: 22px;
+  font-weight: bold;
+  margin-right: 12px;
+  line-height: 0;
+  margin-top: 12px;
+  padding: 10px;
+  background: transparent;
+  border: 1px solid;
+  border-radius: 9355px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.close:hover,
+.close:focus {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal .modal-content .close {
+  order: 2;
+}
+
+.modal .modal-content p {
+  order: 1;
+}
+
+.modal-content .popup-hero-image {
+  background: url(../images/popup-banner.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 250px;
+  padding: 0;
+  margin: 0;
+}
+
+section.modal-box .popup-bullet--points {
+  padding: 20px;
+}
+
+section.modal-box .popup-bullet--points li {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 16px;
+  line-height: 30.4px;
+  color: #232323;
+}
+
+section.modal-box .popup-bullet--points li::before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  background: url("../images/dot-popup.png");
+  background-size: contain;
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  display: inline-block !important;
+  margin: 0 10px 0 0px;
+}

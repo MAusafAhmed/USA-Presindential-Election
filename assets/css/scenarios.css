@@ -1,0 +1,267 @@
+.main.scenario--hero-banner-bg {
+  background: url("../images/hero-banner.png");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 80px 45px 120px 45px;
+  margin: auto;
+  text-align: center;
+  position: relative;
+}
+.main.scenario--hero-banner-bg h1 {
+  font-size: 64px;
+  margin: auto;
+  width: 716px;
+  font-weight: 300;
+  line-height: 83.264px;
+  color: #fff;
+  padding-bottom: 30px;
+}
+.main.scenario--hero-banner-bg .remocan {
+  display: flex;
+  justify-content: center;
+  gap: 150px;
+}
+.main.scenario--hero-banner-bg .remocan img {
+  width: 150px;
+}
+.main.scenario--hero-banner-bg .remocan h2 {
+  color: #fff;
+  font-size: 64px;
+  font-weight: 700;
+  padding-top: 50px;
+}
+.biden--img {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  top: -88px;
+}
+.biden--img:before {
+  content: "";
+  width: 444px;
+  height: 617px;
+  background: url("../images/US.png");
+  background-size: contain;
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  display: block;
+}
+.inner-container .remocan {
+  display: grid;
+  grid-template-columns: 33.33% 33.33% 33.33%;
+  text-align: center;
+  width: 1200px;
+  margin: auto;
+}
+.inner-container .remocan img {
+  width: 130px;
+}
+.inner-container .remocan h2 {
+  color: #fff;
+  font-size: 64px;
+  font-weight: 700;
+  padding-top: 50px;
+}
+
+.remocan .democrat {
+  cursor: pointer;
+  transform: scale(1);
+  transition: 0.3s ease-in-out all;
+}
+
+.remocan .democrat:hover {
+  transform: scale(1.1);
+  transition: 0.3s ease-in-out all;
+}
+
+.inner-container .remocan .democrat h3 {
+  color: #fff;
+  padding-top: 20px;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 31.224px;
+}
+
+.three-logos {
+  padding: 0px 45px 20px 45px;
+  margin-top: -70px;
+}
+
+.three-logos.container {
+  background: #25559f;
+  border-radius: 25px;
+  padding: 120px 45px;
+}
+.three-logos .inner-container {
+  max-width: 1300px;
+  width: 100%;
+  margin: 0 auto;
+  background: #25559f;
+  border-radius: 25px;
+  padding: 40px 45px;
+  position: relative;
+}
+.inner-container .left-arrow {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.three-logos .left-arrow::before {
+  content: "";
+  width: 550px;
+  height: 174px;
+  background: url(../images/left-arrow.png);
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+  display: block;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+.inner-container .right-arrow {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.three-logos .right-arrow::before {
+  content: "";
+  width: 550px;
+  height: 174px;
+  background: url(../images/right-arrow.png);
+  background-size: cover;
+  background-position: top right;
+  background-repeat: no-repeat;
+  display: block;
+  margin-right: 10px;
+  margin-top: 5px;
+}
+section.retained-states h2 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 62.448px;
+  text-align: center;
+}
+section.retained-states {
+  padding: 80px 0px;
+}
+section.retained-states .countries-flags {
+  background: url(../images/countries-line.png);
+  background-position: center 55px;
+  background-repeat: no-repeat;
+  background-size: 57% 40%;
+  padding-bottom: 40px;
+  padding-top: 40px;
+  display: grid;
+  grid-template-columns: 33.33% 33.33% 33.33%;
+}
+
+section.retained-states .countries-flags .county-flag img {
+  width: 250px;
+}
+section.retained-states .countries-flags .county-flag h3 {
+  font-size: 32px;
+  font-weight: 300;
+  text-align: center;
+  padding-top: 20px;
+}
+section.retained-states .countries-flags .county-flag {
+  text-align: center;
+}
+section.retained-states .countries-flags .county-flag h3 span {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+footer {
+  padding: 100px;
+}
+
+footer .footer-inner .logo--block {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+footer .footer-inner {
+  display: grid;
+  grid-template-columns: 20% 25% auto auto;
+  gap: 30px;
+}
+footer .footer-inner .logo--block img {
+  width: 200px;
+}
+footer .footer-inner .logo--block .footer-logo-bottom i {
+  color: #fff;
+  background: #dc0b10;
+  padding: 8px;
+  border-radius: 25px;
+  margin-right: 15px;
+}
+footer .footer-inner .logo--block .footer-logo-bottom {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+footer .footer-inner .logo--block .footer-logo-bottom .footer-phone span {
+  color: #fff;
+}
+footer .footer-inner .logo--block .footer-logo-bottom .footer-email {
+  color: #fff;
+}
+footer .footer-inner .logo--block .social-icons {
+  color: #fff;
+  display: flex;
+  gap: 25px;
+  padding-left: 5px;
+  font-size: 24px;
+}
+footer .footer-inner .footer-content--block.white-color {
+  font-size: 24px;
+}
+footer .footer-inner .content--block p {
+  font-size: 16px;
+  line-height: 30.4px;
+  padding-top: 10px;
+}
+footer .footer-inner .content--block {
+  padding-top: 30px;
+}
+footer .footer-inner .navigation--block {
+  padding-top: 30px;
+  padding-left: 20px;
+}
+footer .footer-inner .newsletter--block {
+  padding-top: 30px;
+}
+footer .footer-inner .navigation--block .footer-menu li {
+  padding: 15px 0;
+  color: #fff;
+}
+footer .footer-inner .newsletter--block .search-form input[type="text"] {
+  padding: 12px;
+  border-radius: 25px;
+  border: none;
+  width: 70%;
+}
+footer .footer-inner .newsletter--block .search-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-top: 10px;
+}
+footer .footer-inner .newsletter--block .search-form .form-button {
+  width: 40%;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+}
+.main.scenario--hero-banner-bg .herp--para {
+  width: 662px;
+  font-size: 20px;
+  line-height: 38px;
+  font-weight: 300;
+  margin: auto;
+}
